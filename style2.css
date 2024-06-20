@@ -1,0 +1,75 @@
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    outline: none;border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: grey;
+    padding-bottom: 70 px;
+    
+}
+.container form{
+    padding:20px;
+    width:700px;
+    background: #EDE8F5;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+.container form .row .col{
+    flex:1 1 250px;
+
+
+}
+
+.container form  .title{
+    font-size: 20px;
+    text-align: center;
+    
+    justify-content: center;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    border: 2px;
+    border-style: solid;
+    border-color: #000;
+
+}
+.container form  .inputBox{
+    margin: 15px 0;
+}
+.container form .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.container form .row .col .inputBox  input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.container form .row .col .inputBox  input:focus{
+    border: 1px solid #000;
+}
+.container form .flex{
+    display: flex;
+    gap:15px;
+}
+.container form  .flex .inputBox{
+    margin-top: 5px;
+}
+/* .radio{
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    vertical-align: middle;
+} */
