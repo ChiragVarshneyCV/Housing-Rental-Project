@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenant Registeration</title>
+    <link rel="stylesheet" href="Tenant_Register.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="apply_box">
+            <h1>Tenant Register</h1>
+            <section class="heading_section">
+            </section>
+
+
+
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="User_name">Name</label>
+                        <input id="User_name" name="User_name" placeholder="Your Name" required>
+
+                    </div>
+                    <div class="form_control">
+                        <label for="Email">Email</label>
+                        <input type="Email" name="Email" placeholder="Email" required>
+
+                    </div>
+                    <div class="form_control">
+                        <label for="Password">Password</label>
+                        <input type="Text" id="Password" name="Password" placeholder="Password" required>
+
+                    </div>
+                    <div class="form_control">
+                        <label for="Password">Confirm Password</label>
+                        <input type="Text" id="Password" name="Password" placeholder="Re-enter your Password" required>
+
+                    </div>
+
+                    <div class="form_control">
+                        <label for="City">Address</label>
+                        <input id="City" name="City" placeholder="Address" required>
+
+                    </div>
+                    <!-- <div class="form_control">
+
+                        <label for="House">Type of House</label>
+                        <select name="House" id="Job_Role">
+                            <option value="">Select your house type</option>
+                            <option value="1 BHK">1 BHK</option>
+                            <option value="2 BHK">2 BHK</option>
+                            <option value="3 BHK">3 BHK</option>
+                            <option value="4 BHK">4 BHK</option>
+                        </select> 
+
+                    </div> -->
+                    <div class="form_control">
+                        <label for="Phone no.">Phone no.</label>
+                        <input type="text" maxlength="10" pattern="\d{10}" id="Phone no" name="Phone no"
+                            placeholder="Phone no." required>
+
+                    </div><br>
+
+                </div>
+                <div class="button_section">
+                    <button type="submit"><a>Register</a></button>
+                </div>
+                <div class="login_page">
+                    <h4>Already have an account?</h4>
+                    <a href="Login.html">Login</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

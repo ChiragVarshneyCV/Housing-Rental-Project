@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RentEase</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/3fdacced7b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Medias/logo.png" class="logo">
+                <h1>RentEase</h1>
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="Login.html">Login</a></li>|
+                    <!-- <li><a href="">Register<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="14"
+                                height="14" color="#000000" fill="none">
+                                <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9"
+                                    stroke="currentColor" />
+                            </svg></a> -->
+                    <li>
+                        <select name="register" id="register" onchange="location = this.value">
+                            <option value="default">Register</option>
+                            <option value="Tenant_Register.html">Tenant</option>
+                            <option value="Landlord_Register.html">Landlord</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+        </nav><br><br>
+    </header>
+
+
+    <div class="filter">
+        <form class="filter" action="action_page.php">
+            <select name="location" id="location">
+                <option value="default">Location</option>
+                <option value="mathura">Mathura</option>
+                <option value="delhi">Delhi</option>
+                <option value="mumbai">Mumbai</option>
+                <option value="agra">Agra</option>
+            </select>
+            <input type="text" placeholder="Search for locality" name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <br><br>
+
+
+    <main>
+        <h1>Popular Owner Properties</h1>
+        <br>
+        <div class="cards">
+        <div class="card">
+            <div class="image">
+                <img src="Medias/image1.jpg" alt="Property at delhi">
+            </div>
+            <div class="content">
+                <h3>3 BHK Apartment</h3>
+                <p>Mayur Vihar, New delhi</p>
+                <p>$20,000/-</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="Medias/image2.jpg" alt="Property at delhi">
+            </div>
+            <div class="content">
+                <h3>3 BHK Apartment</h3>
+                <p>Mayur Vihar, New delhi</p>
+                <p>$20,000/-</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="Medias/image3.jpg" alt="Property at delhi">
+            </div>
+            <div class="content">
+                <h3>3 BHK Apartment</h3>
+                <p>Mayur Vihar, New delhi</p>
+                <p>$20,000/-</p>
+            </div>
+        </div>
+        </div><br><br>
+
+        <h1>Recently Added Properties</h1>
+        <div class="cards">
+        <div class="card">
+            <div class="image">
+                <img src="Medias/image4.jpg" alt="Property at delhi">
+            </div>
+            <div class="content">
+                <h3>3 BHK Apartment</h3>
+                <p>Mayur Vihar, New delhi</p>
+                <p>$20,000/-</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="Medias/image5.jpg" alt="Property at delhi">
+            </div>
+            <div class="content">
+                <h3>3 BHK Apartment</h3>
+                <p>Mayur Vihar, New delhi</p>
+                <p>$20,000/-</p>
+            </div>
+        </div>
+        <div class="card">
+            <div class="image">
+                <img src="Medias/image6.jpg" alt="Property at delhi">
+            </div>
+            <div class="content">
+                <h3>3 BHK Apartment</h3>
+                <p>Mayur Vihar, New delhi</p>
+                <p>$20,000/-</p>
+            </div>
+        </div>
+        </div>
+    </main><br><br>
+
+
+    <footer>
+        <div class="row">
+            <div class="column">
+                <div class="logo"><img src="Medias/logo.png" class="logo">
+                    <h3>RentEase</h3>
+                </div>
+                <p>RentEase.com is India's real estate portal<br> where users can find Independent
+                    Houses/Villas/Apartments/Flats/Plots for <br>rent in 400+ cities across India.
+                    It helps the<br> property seeker to find Resale properties, Residential Projects <br>and Owner
+                    properties.
+                </p>
+            </div>
+            <div class="column">
+                <h3>Office</h3>
+                <p>Mall Road</p>
+                <p>Whitehouse, Mathura</p>
+                <p>Uttar Pradesh, PIN 281003, India</p>
+                <p class="email-id">rentease@gmail.com</p>
+                <h4>+91 - 9747345759</h4>
+            </div>
+            <div class="column">
+                <ul>
+                    <h3>Links</h3>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div class="column" id="social-icons">
+                <h3>Join us at:</h3>
+                <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+                <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <h4>&copy; 2024-32 RentEase.com &nbsp; &nbsp;All rights are reserved.</h4>
+        </div>
+    </footer>
+</body>
+
+</html>
